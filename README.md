@@ -67,10 +67,9 @@ If you install the module using the setup.py script, you do NOT need to install 
   3. (Opt.) Start your virtualenv if you use one
   4. Type and run the command
 
-  
-      ```sh
-  > python3 setup.py install
-  ```
+     ```sh
+     > python3 setup.py install
+     ```
 
 - Installation in an **Anaconda** environment
 
@@ -80,10 +79,10 @@ If you install the module using the setup.py script, you do NOT need to install 
   5. Navigate to the module folder
   6. Type and run the command
 
-     ```bash
-  > python setup.py install
+  ```sh
+  > python3 setup.py install
   ```
-  
+
 ## How to use the module <a name="howto_tutorial"></a>
 
 An example is provided in the *_examples* folder, both as .py script and as a Jupyter Notebook.
@@ -234,7 +233,7 @@ Name | Type | Description
 1. *system.getIDs()*
 
  Return the list of all the molecule IDs stored in the System class. The list is provided as a NumPy array.
- 
+
 2. *system.getPositions(single_array=)*
 
  Return the positions of all the atoms in the system. If single\_array is True, a single NumPy array of the shape (N atoms, 3) is returned for all molecules together. If single\_array is False, a dictionary of all the residue names containing each a NumPy array of the shape (N molecules, N atoms per molecule, 3) is returned.
