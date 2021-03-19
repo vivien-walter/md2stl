@@ -10,7 +10,7 @@ setup(
 	),
 	license = "GPL3.0",
 	url='https://github.com/vivien-walter/md2stl',
-	download_url = '',
+	download_url = 'https://github.com/vivien-walter/md2stl/archive/v0.1.tar.gz',
 	packages=[
 	'md2stl'
 	],
