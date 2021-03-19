@@ -28,6 +28,7 @@ It is therefore recommended to increase the size of the atoms to form strong con
 
 1. [Installation](#installation)
   * [Requirements](#install_requires)
+  * [Installation using PyPi](#install_pip)
   * [Installation using the setup.py script](#install_howto)
 2. [How-to use the module](#howto_tutorial)
   * [Load the simulation file](#howto_extract)
@@ -56,6 +57,16 @@ The following modules are required to run md2stl:
 * tqdm
 
 If you install the module using the setup.py script, you do NOT need to install first the module above.
+
+### Installation using PyPi <a name="install_pip"></a>
+
+To install md2stl using a terminal and PyPi, simply use the following command
+
+```sh
+> pip install md2stl
+```
+
+The PyPi repo can be found on [this link](https://pypi.org/project/md2stl/).
 
 ### Installation using the setup.py script <a name="install_howto"></a>
 
